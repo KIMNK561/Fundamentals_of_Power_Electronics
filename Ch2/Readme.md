@@ -2,11 +2,11 @@
 &emsp; **The small-ripple approximation** assumes that the ripple of a continuous variable, such as capacitor voltage, is much smaller than its DC value. This 
 is justified because engineers generally design circuits with small ripples. Under this assumption, the ripple can be treated as approximately linear,
 which is why the method is also called the linear-ripple approximation.
-&emsp; When we apply the small-ripple approximation and the calculated value is not zero, the result is expressed mainly in terms of dominant DC terms. 
+<br>&emsp; When we apply the small-ripple approximation and the calculated value is not zero, the result is expressed mainly in terms of dominant DC terms. 
 In this case, small changes in the variables do not significantly affect the result, so the approximation is valid. However, if the result turns 
 out to be zero, the dominant terms disappear from the expression, and even small variations cannot be ignored. In such cases, the approximation
 is not valid.
-&emsp; We analyze converters using three tools: **inductor volt-second balance, capacitor amp-second balance, and the small-ripple approximation**. However,
+<br>&emsp; We analyze converters using three tools: **inductor volt-second balance, capacitor amp-second balance, and the small-ripple approximation**. However,
 when the result of the last one is zero, we must be ready to abandon it. In steady state, a converter cannot operate correctly unless the first two balances hold true:
 
 $$\langle v_L \rangle = \frac{1}{T_s}\int_0^{T_s} v_L \, dt = 0$$
