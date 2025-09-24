@@ -14,12 +14,12 @@ $$\langle i_C \rangle = \frac{1}{T_s}\int_0^{T_s} i_C \, dt = 0$$
 
 It would be useful to memorize the DC capacitor voltages and inductor current of basic converters, such as buck, boost, buck-boost converters.
 
-## Buck Converter
+### Buck Converter
 $$V = D V_g$$
 $$I_L = \frac{D V_g}{R}$$
-## Boost Converter
+### Boost Converter
 $$V = \frac{V_g}{D'}, \quad D' = 1 - D$$
 $$I_L = \frac{I_o}{D'} = \frac{V_g}{D'^2 R}$$
-## Buck-Boost Converter
+### Buck-Boost Converter
 $$V = -\frac{D}{D'} V_g, \quad D' = 1 - D$$
 $$I_L = \frac{I_o}{D} = -\frac{V_g}{D'R}$$
