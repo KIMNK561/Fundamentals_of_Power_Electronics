@@ -1,6 +1,6 @@
  **When the ripple in a DC converter circuit is small**, the converter can be approximated as an ideal DC transformer. The DC transformer model is time-invariant and therefore
 contains only the DC component. Although it is not perfectly accurate, it provides useful intuition about the circuit.
- Practical DC converters are not ideal because they include many sources of power loss, such as inductor copper and core loss, and voltage drops across semiconductor devices.
+ <br><br> Practical DC converters are not ideal because they include many sources of power loss, such as inductor copper and core loss, and voltage drops across semiconductor devices.
 - Inductor copper loss can be modeled by adding a series resistance to the inductor.
 - MOSFETs and BJTs can be modeled with an on-resistance.
 - Diodes, IGBTs, and thyristors can be modeled with an on-resistance and a voltage source.
