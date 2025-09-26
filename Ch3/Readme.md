@@ -4,7 +4,8 @@ contains only the DC component. Although it is not perfectly accurate, it provid
 - Inductor copper loss can be modeled by adding a series resistance to the inductor.
 - MOSFETs and BJTs can be modeled with an on-resistance.
 - Diodes, IGBTs, and thyristors can be modeled with an on-resistance and a voltage source.
- Although $I_rms^2*R$is not exactly equal to $I_avg^2*R$, the difference is very small when ripples are small (for example, a 10% ripple produces only about a 0.33% difference).
+
+ Although $\( I_{\text{rms}}^2 R \)$is not exactly equal to \( I_{\text{avg}}^2 R \), the difference is very small when ripples are small (for example, a 10% ripple produces only about a 0.33% difference).
 Therefore, the DC transformer model can be used to calculate the DC component of the real circuit and the power absorbed or supplied by elements, even though the currents are represented
 by their average values.
 How to Approximate a DC Converter as a DC Transformer Circuit
