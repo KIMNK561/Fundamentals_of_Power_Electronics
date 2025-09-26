@@ -1,3 +1,4 @@
+#Steady-State EquivalentCircuit Modeling, Losses, and Efficiency
 Practical DC converters are not ideal because they include many **sources of power loss**, such as inductor copper and core loss, and voltage drops across semiconductor devices.
 This is how to model one of this power loss.
 - Inductor copper loss can be modeled by adding a series resistance to the inductor.
