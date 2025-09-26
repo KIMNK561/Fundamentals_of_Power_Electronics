@@ -4,8 +4,8 @@ This is how to model one of this power loss.
 - MOSFETs and BJTs can be modeled with an on-resistance.
 - Diodes, IGBTs, and thyristors can be modeled with an on-resistance and a voltage source.
 
- **When the ripple in a DC converter circuit is small**, the converter can be approximated as an ideal DC transformer. The DC transformer model is time-invariant and therefore
-contains only the DC component. The DC transformer model can be used to calculate **the DC component of the real circuit and the power** absorbed or supplied by elements, even though the currents are represented
+ When the ripple in a DC converter circuit is small, the converter can be approximated as **an ideal DC transformer**. The DC transformer model is time-invariant and therefore
+contains only the DC component. The DC transformer model can be used to calculate **the DC component of the real circuit and the power absorbed or supplied by elements**, even though the currents are represented
 by their average values. Calculating power from the circuit can be justified because the ripple of currents and voltages is small, making the ripple contribution of $V \times I$ negligible. Moreover, the difference between $I_{\text{rms}}^2 R$ and $I_{\text{avg}}^2 R$ is very small (for example, only about 0.33% for a 10% ripple).
 <br><br>How to Approximate a DC Converter as a DC Transformer Circuit
 1.	Derive the corresponding mesh and node equations from the volt-second balance and the charge balance, respectively.
