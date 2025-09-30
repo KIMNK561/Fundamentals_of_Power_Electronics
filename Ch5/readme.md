@@ -22,5 +22,5 @@ long algebra, simplify by forming $M$  and $K$  directly through dividing or mul
 | Converter   | $K$ | $K_{\text{crit}}(D)$ | DCM Conversion Ratio $M(D,K)$ |
 |-------------|-----|----------------------|-------------------------------|
 | Buck        | $K = \tfrac{2L}{RT_s}$ | $K_{\text{crit}}(D) = (1-D)$ | $M(D,K) = \tfrac{2}{1 + \sqrt{1+ \tfrac{4K}{D^2}}}$ |
-| Boost       | $K = \tfrac{2L}{RT_s}$ | $K_{\text{crit}}(D) = D(1-D)^2$ | $M(D,K) = \tfrac{D}{(1-D)\bigl(D + \tfrac{1}{2}K\bigr)}$ |
-| Buck-Boost  | $K = \tfrac{2L}{RT_s}$ | $K_{\text{crit}}(D) = (1-D)^2$ | $M(D,K) = \tfrac{D^2}{(1-D)\bigl(D + \tfrac{1}{2}K\bigr)}$ |
+| Boost       | $K = \tfrac{2L}{RT_s}$ | $K_{\text{crit}}(D) = D(1-D)^2$ | $M(D,K) = \tfrac{1 + \sqrt{1+ \tfrac{4K}{D^2}}}{2}$ |
+| Buck-Boost  | $K = \tfrac{2L}{RT_s}$ | $K_{\text{crit}}(D) = (1-D)^2$ | $M(D,K) = - \tfrac{D}{\sqrt{K}}$ |
