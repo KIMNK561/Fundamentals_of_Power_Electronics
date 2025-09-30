@@ -5,7 +5,7 @@ mode (DCM) can be identified by first assuming CCM and then evaluating the condi
 where this polarity change just begins. By rearranging the inequality—placing the terms involving the duty ratio $D$ 
 on one side and the remaining terms on the other—we obtain the condition:
 
-$$K<K_{crit} (D)$$
+$$K < K_{crit} (D)$$
 
 &emsp; Once this new mode of operation occurs, the conversion ratio $M$ also changes. To calculate $M$ , we apply the inductor
 volt–second balance and capacitor charge balance under steady-state conditions. However, in this case **only a restricted
