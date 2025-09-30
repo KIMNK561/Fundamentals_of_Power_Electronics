@@ -1,11 +1,11 @@
-When the ripple is **big enough to change the polarity of the semiconductor devices**, the converter transitions
+&nbsp When the ripple is **big enough to change the polarity of the semiconductor devices**, the converter transitions
 into a new mode of operation. The boundary between continuous conduction mode (CCM) and discontinuous conduction
 mode (DCM) can be identified by first assuming CCM and then evaluating the condition at critical conduction mode (CRM),
 where this polarity change just begins. By rearranging the inequality—placing the terms involving the duty ratio $D$ 
 on one side and the remaining terms on the other—we obtain the condition:
 $$K<K_{crit} (D)$$
 
-Once this new mode of operation occurs, the conversion ratio $M$ also changes. To calculate $M$ , we apply the inductor
+&nbsp Once this new mode of operation occurs, the conversion ratio $M$ also changes. To calculate $M$ , we apply the inductor
 volt–second balance and capacitor charge balance under steady-state conditions. However, in this case **only a restricted
 version of the linear-ripple approximation can be used**. While designers typically aim for small output voltage ripple—so 
 the approximation is usually valid for the output voltage—inductor currents or capacitor voltages may still exhibit large 
